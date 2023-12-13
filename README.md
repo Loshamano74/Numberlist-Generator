@@ -2,7 +2,7 @@
 Creates a Wordlist of numbers used as password or username list for using in website or username hacking.
 
 
-# Install in Kali Linux
+# Install in Linux-Based Systems
 
 git clone https://github.com/Loshamano74/Numberlist-Generator
 
