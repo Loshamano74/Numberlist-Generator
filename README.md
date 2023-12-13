@@ -14,3 +14,7 @@ chmod +x *
 
 python3 run.py
 
+# To Update Script
+
+./update.sh
+
