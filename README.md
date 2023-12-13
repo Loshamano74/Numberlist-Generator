@@ -10,5 +10,5 @@ cd Numberlist-Generator
 
 chmod +x *
 
-./run.py
+python3 run.py
 
