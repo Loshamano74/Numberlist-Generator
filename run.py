@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 
 def generate_sequence(start, final, folder_name, file_name):
@@ -22,6 +24,15 @@ def get_input(prompt):
         return user_input
 
 if __name__ == "__main__":
+    print('''
+     _______                .__  .__          __      ________                                   __                
+     \      \  __ __  _____ |  | |__| _______/  |_   /  _____/  ____   ____   ________________ _/  |_  ___________ 
+     /   |   \|  |  \/     \|  | |  |/  ___/\   __\ /   \  ____/ __ \ /    \_/ __ \_  __ \__  \\   __\/  _ \_  __ \
+    /    |    \  |  /  Y Y  \  |_|  |\___ \  |  |   \    \_\  \  ___/|   |  \  ___/|  | \// __ \|  | (  <_> )  | \/
+    \____|__  /____/|__|_|  /____/__/____  > |__|    \______  /\___  >___|  /\___  >__|  (____  /__|  \____/|__|   
+            \/            \/             \/                 \/     \/     \/     \/           \/                   
+    ''')
+
     folder_name = get_input('Enter the folder name')
 
     while folder_name is not None:
